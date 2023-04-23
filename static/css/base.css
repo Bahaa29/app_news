@@ -1,0 +1,43 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1617396900799-f4ec2b43c7ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d2FsbHBhcGVyJTIwNGt8ZW58MHx8MHx8&w=1000&q=80');
+    background-size: cover;
+    background-position: center center;
+}
+
+.form-container {
+    background-color: transparent !important;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+input[type="text"],
+input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    background-color: transparent;
+}   
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+form {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
